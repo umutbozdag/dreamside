@@ -12,7 +12,6 @@ import {
 } from "../components/redux/reducers/player";
 import { RootState } from "./redux/store";
 import PauseIcon from "./icons/pause";
-import cx from "classnames";
 import PlaylistRemoveIcon from "./icons/playlist-remove";
 
 const TrackItem = ({ track }: { track: ITrackItem }) => {

@@ -1,13 +1,9 @@
-import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import useKeyPress from "../hooks/useKeyPress";
 import NextIcon from "./icons/next";
 import PauseIcon from "./icons/pause";
 import PlayIcon from "./icons/play";
 import PrevIcon from "./icons/prev";
-import QueueIcon from "./icons/playlist-add";
 import {
-  getCurrentTrackIndex,
   playNextTrack,
   playPrevTrack,
   setIsPlaying,
