@@ -3,13 +3,7 @@ import useTracks from "../swr/useTracks";
 import TrackItem from "./track-item";
 import TrackItemSkeleton from "./track-item-skeleton";
 const Tracks = () => {
-  const { tracks, isLoading, isError } = useTracks();
-
-  useEffect(() => {
-    if (tracks) {
-      console.log("tracks", tracks);
-    }
-  }, []);
+  const { tracks, isLoading } = useTracks();
 
   return (
     <div className="overflow-x-hidden mt-6">
@@ -17,7 +11,8 @@ const Tracks = () => {
         Top tracks from your country
       </h2>
       <div className="overflow-y-auto h-[600px]">
-        {isLoading && [...Array(10)].map((x, y) => <TrackItemSkeleton key={y} />)}
+        {isLoading &&
+          [...Array(10)].map((x, y) => <TrackItemSkeleton key={y} />)}
         {tracks &&
           !isLoading &&
           tracks.map((track: any) => {
