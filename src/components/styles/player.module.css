@@ -1,0 +1,42 @@
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.player {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+.disc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92%;
+  width: 92%;
+  position: absolute;
+  background-image: url("../../images/disc.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.rotating {
+  animation: rotating 5s linear infinite;
+}
