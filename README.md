@@ -1,21 +1,6 @@
 
-# Starter Template for Nextjs, TailwindCSS & TypeScript ( with Redux )
-Looking for a Starter Template for Nextjs, TailwindCSS & TypeScript? Then, this might be the kickstarter for you.
+# Screenshots
+![LgUpUlOO2B](https://user-images.githubusercontent.com/43722871/189481823-771ef894-de28-433f-912f-f159104af390.png)
+![R2lxppfd51](https://user-images.githubusercontent.com/43722871/189481825-a3d40940-37f5-4cf6-9f34-c816e76fef73.png)
 
-
-## Demo
-
-https://nextjs-typescript-tailwindcss-starter.vercel.app/
-
-  
-## Features
-
-- Light/dark mode toggle. The dark mode state is globally saved in redux store and also saved in localstorage as well.
-- Page transition loader
-- TailwindCSS theming
-- Typescript & Redux Implementation
-
-  
-## Found a issue?
-
-If you found an bug or need support, please create the issue(ticket) on this repo.
+> More features on the way!
